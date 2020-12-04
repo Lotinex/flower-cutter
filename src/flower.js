@@ -37,7 +37,7 @@ function process(img){
     const data = imgData.data;
     for(let i=0; i<data.length; i += 4){
         const pixel = (pixelType) => data[i + pixelTypeNumber[pixelType]];
-        if(!(pixel('R') >= 45 && pixel('R') <= 195 && pixel('G') >= 20 && pixel('G') <= 190 && pixel('B') >= 96)){
+        if(!(pixel('R') >= 45 && pixel('R') <= 195 && pixel('G') >= 30 && pixel('G') <= 190 && pixel('B') >= 100)){
             data[i] = 255;
             data[i + 1] = 255;
             data[i + 2] = 255;
