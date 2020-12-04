@@ -43,7 +43,6 @@ function process(img){
             data[i + 2] = 255;
         }
     }
-    console.log(data)
     Renderer.putImageData(imgData, 0, 0)
 }
 
