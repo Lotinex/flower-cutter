@@ -1,4 +1,4 @@
-# flower-cutter
+# image partial extractor
 image partial extraction
 
 ## used
